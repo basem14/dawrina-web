@@ -2,7 +2,7 @@
 module.exports = {
   siteMetadata: {
     title: `dawrina`,
-    siteUrl: `https://apps.apple.com/us/app/%D8%AF%D9%88%D8%B1%D9%8A%D9%86%D8%A7/id6475389615`,
+    siteUrl: `https://dawrina.netlify.app/`,
   },
   plugins: [
     "gatsby-plugin-image",
