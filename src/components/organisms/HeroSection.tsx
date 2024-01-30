@@ -87,10 +87,14 @@ const StoresContainerStyle = {
 const ButtonContainer = [
   {
     dbBtn: <ImageLink
-      href="https://play.google.com/store/apps/details?id=sa.shwra.app"
+      href="https://expo.dev/artifacts/eas/baBregijAhc2U3t1dauAX3.apk"
       target="_blank"
       rel="noopener noreferrer"
       className='mt-4 mt-md-0'>
+         <Stack className='justify-content-center align-items-end '>
+        <span style={{ fontSize: '1rem' }}>Available on</span>
+        <span style={{ fontSize: '1.3rem', marginTop: -3 }} className='fw-bolder'>Andorid</span>
+      </Stack>
       <StaticImage
         src="../images/general/google-play-4@3x.png"
         alt="app-image"
@@ -102,7 +106,7 @@ const ButtonContainer = [
   },
   {
     dbBtn: <ImageLink
-      href="https://apps.apple.com/sa/app/shwra-%D8%B4%D9%88%D8%B1%D9%89/id1550113344"
+      href="https://apps.apple.com/us/app/%D8%AF%D9%88%D8%B1%D9%8A%D9%86%D8%A7/id6475389615"
       target="_blank"
       rel="noopener noreferrer"
       className='my-5 my-md-0'

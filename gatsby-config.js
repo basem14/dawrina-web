@@ -1,8 +1,8 @@
 /** @type {import('gatsby').GatsbyConfig} */
 module.exports = {
   siteMetadata: {
-    title: `شورى للخدمات والاستشارات القانونية`,
-    siteUrl: `https://www.shwra.sa`,
+    title: `dawrina`,
+    siteUrl: `https://apps.apple.com/us/app/%D8%AF%D9%88%D8%B1%D9%8A%D9%86%D8%A7/id6475389615`,
   },
   plugins: [
     "gatsby-plugin-image",
@@ -13,8 +13,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `شورى للخدمات والاستشارات القانونية`,
-        short_name: `شورى`,
+        name: 'dawrina',
+        short_name: `dawrina`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
