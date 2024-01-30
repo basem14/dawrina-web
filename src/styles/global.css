@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap');
 
 :root {
-  --primary-color: #173039;
-  --secondary-color: #cc9a28;
---tertiary-color:#DDB669;
+  --primary-color: #FAFBFD;
+  --secondary-color: #7097C7;
+--tertiary-color:#560652;
   --text-light: #fff;
   --text-dark: #07242E;
 --text-gray:#5255558b;
@@ -1180,7 +1180,7 @@ background-color: white;
   align-items: center;
 }
 .hero-section-Text{
-  text-align: right;
+  text-align: justify;
 }
 
 

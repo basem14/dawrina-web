@@ -29,20 +29,7 @@ type AvatarProps = {
 
 export default function Avatar({ src, alt, size ,onClick }: AvatarProps) {
 
-    src = "https://pbs.twimg.com/profile_images/1209858983/avatar_normal.jpg"
     return (
-        <>
-        <AatarWarrp onClick={onClick}>
-                    <StaticImage
-                        src={"https://pbs.twimg.com/profile_images/1209858983/avatar_normal.jpg"}
-                        alt={alt || 'avatar'}
-                        style={{
-                            width: size ? size : '100%',
-                            height: size ? size : '100%',
-                        }}
-  
-                        />
-        </AatarWarrp>
-                        </>
+       null
     )
 }

@@ -123,20 +123,7 @@ const ButtonContainer = [
 
     </ImageLink>
   }
-  ,
-  {
-    dbBtn: <ImageLink
-      href="https://appgallery.huawei.com/app/C106460597"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <StaticImage
-        src="../images/general/huawei-appgallery-black.png"
-        alt="app-image"
-        placeholder="blurred"
-        style={{ width: '80%', height: '90%' }} />
-    </ImageLink>
-  }
+ 
 
 ]
 
@@ -162,7 +149,7 @@ export default function HeroSection({
         <Col md={6} className="hero-section-Right ">
           <HeroContent className="hero-section-Text">
 
-            <HeroTitle
+            {/* <HeroTitle
               variant="h1"
               align="left"
               color="var(--text-dark)"
@@ -170,8 +157,8 @@ export default function HeroSection({
               paragraph
               className="fw-bold"
             >
-              وجهتك الأولى
-            </HeroTitle>
+              Welcome to Dawrina
+            </HeroTitle> */}
 
             <HeroTitle
               variant="h1"
@@ -181,28 +168,28 @@ export default function HeroSection({
               paragraph
               className="fw-bold"
             >
-              للخدمات القانونية
+              Welcome to Dawrina
 
             </HeroTitle>
             <div className='d-flex'>
               <Typography variant="p"
                 className="fw-bold ">
                 {!hide ?
-                  "شورى هي منصة رقمية تعنى بتقديم الاستشارات والخدمات القانونية عن بعد في جميع مناطق المملكة العربية السعودية من خلال ربط العملاء طالبي الاستشارات والخدمات القانونية، مع نخبة من المحامين المرخصين من وزارة العدل السعودية بطريقة تفاعلية، سهلة وآمنة ومهنية واستناداً إلى القوانين مع الحفاظ على سرية وخصوصية بيانات العميل."
-                  : ' شورى هي منصة رقمية تعنى بتقديم الاستشارات والخدمات القانونية   ..... '}
-                <span onClick={() => setHide(!hide)}
+                  "Its ultimate destination for thrilling match predictions and sports nominations! Experience the excitement of predicting match outcomes, challenging friends, and climbing the leaderboard. Dawrina offers a feature-rich platform where users can immerse themselves in the world of sports, make predictions, and earn points."
+                  : '  '}
+                {/* <span onClick={() => setHide(!hide)}
                   className='fs-5 mx-3'
                   style={{ cursor: 'pointer', color: 'var(--tertiary-color)' }}>
                   اعرف المزيد {"  >  "}
-                </span>
+                </span> */}
 
               </Typography>
             </div>
             <Media style={{ margin: '-9rem 0 -2rem -4rem' }} greaterThan='sm'>
-              <HomeHeadingUnderLine title=' حمل التطبيق واحصل على خدمتك القانونية' />
+              <HomeHeadingUnderLine title='Download now and elevate your passion for sports to a whole new level' />
             </Media>
             <Media style={{ margin: '-9rem 0 -6rem -4rem' }} at='sm'>
-              <HomeHeadingUnderLine title=' حمل التطبيق واحصل على خدمتك القانونية' />
+              <HomeHeadingUnderLine title='Download now and elevate your passion for sports to a whole new level' />
             </Media>
 
             <div style={StoresContainerStyle}>
@@ -229,7 +216,7 @@ export default function HeroSection({
             {heroImage ?
               heroImage :
               <StaticImage
-                src="./../../images/general/hero/Rectangle 27813@2x.png"
+                src="./../../images/general/hero/dawrinaScreenshot.png"
                 alt="app-image"
                 placeholder="blurred"
                 objectFit="contain"
@@ -238,77 +225,7 @@ export default function HeroSection({
                 }}
               />
             }
-            <div className='HeroSection-Abs-Payment-Images'>
-              <Stack>
-                <StaticImage
-                  src="../../images/Payment/_W036@2x.png"
-                  alt='logo'
-                  placeholder="blurred"
-                  objectFit="contain"
-                  style={{
-                    width: '15px',
-                    height: '15px'
-                  }}
-                />
-
-
-
-                <StaticImage
-                  src="../../images/Payment/Down2x.png"
-                  alt='logo'
-                  placeholder="blurred"
-                  objectFit="contain"
-                  style={{
-                    width: '25px',
-                    height: '25px',
-                  }}
-                />
-
-                <StaticImage
-                  src="../../images/Payment/Mastercard@2x.png"
-                  alt='logo'
-                  placeholder="blurred"
-                  objectFit="contain"
-                  style={{
-                    width: '30px',
-                    height: '30px'
-                  }}
-                />
-
-
-                <StaticImage
-                  src="../../images/Payment/Visa@2x.png"
-                  alt='logo'
-                  placeholder="blurred"
-                  objectFit="contain"
-                  style={{
-                    width: '25px',
-                    height: '25px'
-                  }}
-                />
-
-                <StaticImage
-                  src="../../images/Payment/ApplePay2x.png"
-                  alt='logo'
-                  placeholder="blurred"
-                  objectFit="contain"
-                  style={{
-                    width: '25px',
-                    height: '25px',
-                  }}
-                />
-                <StaticImage
-                  src="../../images/Payment/MadaLogo@2x.png"
-                  alt='logo'
-                  placeholder="blurred"
-                  objectFit="contain"
-                  style={{
-                    width: '30px',
-                    height: '30px'
-                  }}
-                />
-              </Stack>
-            </div>
+           
           </div>
         </Col>
 

@@ -72,7 +72,7 @@ const RootStyle = styled.footer`
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-color: #FBF7EE;
+  background-color: #560652;
   padding: 6rem 16rem 1rem 16rem;
   margin-top:15rem;
 direction:rtl;
@@ -294,7 +294,7 @@ export default function Footer({
 
         <Row>
           <Col className="my-4" md={6} lg={4}>
-            <Typography className="fw-bold fs-5" variant="p">
+            <Typography style={{color:"white"}} className="fw-bold fs-5" variant="p">
             شورى هي منصة إلكترونية تعنى بالوساطه لتقديم الاستشارات والخدمات القانونية من خلال ربط نخبة من المحامين المرخصين من وزارة العدل السعودية مع طالبي الخدمات القانونية، وهي منصه مرخصه بموجب سجل تجاري رقم 4650222665.
             </Typography>
           </Col> 

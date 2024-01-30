@@ -36,44 +36,42 @@ const IndexPage = () => {
   return (
     <>
      
-    <div className="main-container" dir="rtl" >
-      <ToolBarSection business={false}/>
+    <div className="main-container" dir="ltr" >
+      {/* <ToolBarSection business={false}/> */}
          
    
       
       
-        <Header />
+        {/* <Header /> */}
         <HeroSection />
         <div >
 
         {/* <Media at='sm'> */}
         <Media at='sm'>
-              <OurServiceSectionMobile />
+              {/* <OurServiceSectionMobile /> */}
          </Media>
          <Media greaterThan="sm">
-           <OurServiceSection/>
          </Media>
         
          
-           <ShwraFeatureSection/>
-         <Majors/>
+         {/* <Majors/> */}
          {/* <Media greaterThan="sm">
           <StatisticMobile/>
         </Media> */}
-              <HowtoUseMobile/>
-              <FaqMobile/>
+              {/* <HowtoUseMobile/>
+              <FaqMobile/> */}
               <Media at='sm'>
-              <FooterMobile/>
+              {/* <FooterMobile/> */}
 
          </Media>
 
        
 
          <Media greaterThan="sm">
-           <Footer/>
+           {/* <Footer/> */}
          </Media>
              
-              <WhatsappButton />
+              {/* <WhatsappButton /> */}
               </div>
 
         {/* </Media> */}
