@@ -1,28 +1,25 @@
 {
-    "applinks": {
-      "apps":[],
-      "details": [
-        {
-          "appIDs": [
-            "W4XFR8DMXL.com.basem11.dawrina"
-          ],
-          "components": [
-            {
-              "/": "*",
-              "comment": "Matches all routes"
-            }
-          ]
-        }
-      ]
-    },
-    "activitycontinuation": {
-      "apps": [
-        "W4XFR8DMXL.com.basem11.dawrina"
-      ]
-    },
-    "webcredentials": {
-      "apps": [
-        "W4XFR8DMXL.com.basem11.dawrina"
-      ]
-    }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "W4XFR8DMXL.com.basem11.dawrina"
+        ],
+        "paths": [
+          "/records/*"
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "W4XFR8DMXL.com.basem11.dawrina"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "W4XFR8DMXL.com.basem11.dawrina"
+    ]
   }
+}
