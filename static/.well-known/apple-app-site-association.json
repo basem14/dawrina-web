@@ -6,9 +6,7 @@
         "appIDs": [
           "W4XFR8DMXL.com.basem11.dawrina"
         ],
-        "paths": [
-          "/records/*"
-        ]
+        "paths": ["*"]
       }
     ]
   },
