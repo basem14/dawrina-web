@@ -19,6 +19,7 @@ export default function HTML(props) {
           name="keywords"
           content="dawrina"
         />
+        <meta name="apple-itunes-app" content="app-id=6476918150" />
         <title>Dawrina</title>        
 
         {/* Inject @artsy/fresnel styles in to the head */}
