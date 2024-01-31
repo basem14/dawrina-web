@@ -6,7 +6,20 @@
         "appIDs": [
           "W4XFR8DMXL.com.basem11.dawrina"
         ],
-        "paths": ["/records/*"]
+        "components": [
+          {
+            "/": "/joinleaguescreen",
+            "comment": "Matches URL whose path is /home"
+          },
+          {
+            "/": "/MywinScreen",
+            "comment": "Matches URL whose path is /metrics"
+          },
+          {
+            "/": "/Root",
+            "comment": "Matches URL whose path is /profile"
+          }
+        ]
 
       }
     ]
