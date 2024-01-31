@@ -6,13 +6,8 @@
         "appIDs": [
           "W4XFR8DMXL.com.basem11.dawrina"
         ],
-        "components": [
-          {
-            "/": "*",
-            "comment": "Matches all routes"
-          }
-        ],
-        "paths": ["*"]
+        "paths": ["/records/*"]
+
       }
     ]
   },
