@@ -87,7 +87,7 @@ const StoresContainerStyle = {
 const ButtonContainer = [
   {
     dbBtn: <ImageLink
-      href="https://expo.dev/artifacts/eas/baBregijAhc2U3t1dauAX3.apk"
+      href="https://play.google.com/store/apps/details?id=com.basem11.dawrina"
       target="_blank"
       rel="noopener noreferrer"
       className='mt-4 mt-md-0'>
