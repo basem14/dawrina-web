@@ -179,7 +179,7 @@ export default function HeroSection({
               <Typography variant="p"
                 className="fw-bold ">
                 {!hide ?
-                  "Its ultimate destination for thrilling match predictions and sports nominations! Experience the excitement of predicting match outcomes, challenging friends, and climbing the leaderboard. Dawrina offers a feature-rich platform where users can immerse themselves in the world of sports, make predictions, and earn points."
+                  "Its ultimate destination for a thrilling match predictions and sports nominations! Experience the excitement of predicting match outcomes, challenging friends, and climbing the leaderboard. Dawrina offers a feature-rich platform where users can immerse themselves in the world of sports, make predictions, and earn points."
                   : '  '}
                 {/* <span onClick={() => setHide(!hide)}
                   className='fs-5 mx-3'
