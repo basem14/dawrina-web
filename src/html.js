@@ -15,12 +15,13 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta
-          name="keywords"
-          content="dawrina"
-        />
+                <meta name="keywords" content="دورينا" />
+
         <meta name="apple-itunes-app" content="app-id=6476918150" />
-        <title>Dawrina</title>        
+
+        <meta name="description" content="تابع توقعك🤩
+مع تطبيق #دورينا تقدر تتوقع وتربح جائزة أسبوعية بعدد نقاطك .. حمل تطبيق دورينا الحين ✨" />
+        <title>دورينا</title>        
 
         {/* Inject @artsy/fresnel styles in to the head */}
         <style>{mediaStyles}</style>
